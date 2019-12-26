@@ -1,0 +1,10 @@
+[
+  {
+    "repository": "android_device_meizu_sdm845-common",
+    "target_path": "device/meizu/sdm845-common"
+  },
+  {
+    "repository": "android_vendor_meizu_m1892",
+    "target_path": "vendor/meizu/m1892"
+  }
+]
