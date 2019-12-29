@@ -29,5 +29,8 @@ on fs
     wait /dev/block/platform/soc/${ro.boot.bootdevice}
     symlink /dev/block/platform/soc/${ro.boot.bootdevice} /dev/block/bootdevice
 
+    symlink /sbin/mke2fs /sbin/mke2fs_static
+    symlink /sbin/e2fsdroid /sbin/e2fsdroid_static
+
 on boot
     setprop sys.usb.config adb
