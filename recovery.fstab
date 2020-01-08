@@ -9,6 +9,9 @@
 /misc           emmc    /dev/block/bootdevice/by-name/misc
 /custom         ext4    /dev/block/bootdevice/by-name/custom        flags=display="Custom"
 
+# Data
+/data           ext4    /dev/block/bootdevice/by-name/userdata
+
 # NV
 /persist        emmc    /dev/block/bootdevice/by-name/persist       flags=backup=1;display="NV"
 /proinfo        emmc    /dev/block/bootdevice/by-name/proinfo       flags=backup=1;subpartitionof=/persist
